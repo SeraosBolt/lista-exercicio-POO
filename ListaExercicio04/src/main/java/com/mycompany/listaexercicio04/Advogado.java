@@ -33,12 +33,12 @@ public class Advogado {
     }
     
     public void getAdvogado(){
-        System.out.println(nome);
-        System.out.println(idade);
-        System.out.println(numOab);
-        System.out.println(escritorio);
-        System.out.println(especialidade);
-        System.out.println(numCasosGanhos);
-        System.out.println(numCasosPerdidos);
+        System.out.println("Nome Advogado: " + nome);
+        System.out.println("Idade: " + idade);
+        System.out.println("Número OAB: " + numOab);
+        System.out.println("Trabalha no Escritório: " + escritorio);
+        System.out.println("É Especialista na área: " + especialidade);
+        System.out.println("Já Ganhou "+numCasosGanhos+" Casos");
+        System.out.println("Já Perdeu "+numCasosPerdidos+" Casos");
     }
 }
